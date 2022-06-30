@@ -26,5 +26,21 @@ public class DriverAlbum
         album.addSong(song1);
         album.addSong(song2);
         album.displayInfo();
+        
+        Album album = new Album();
+        album.setTitle("Pernah Hits");
+        album.setYear(2021);
+        album.setTotalSongs(2);
+        album.addSong(song1);
+        album.addSong(song2);
+        album.displayInfo();
+        
+        Album album = new Album();
+        album.setTitle("Pernah Hits");
+        album.setYear(2021);
+        album.setTotalSongs(2);
+        album.addSong(song1);
+        album.addSong(song2);
+        album.displayInfo();
     }
 }
