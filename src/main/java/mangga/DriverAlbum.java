@@ -25,6 +25,6 @@ public class DriverAlbum
         album.setTotalSongs(2);
         album.addSong(song1);
         album.addSong(song2);
-        album.displayInfo();
+        album.displayInfo()
     }
 }
